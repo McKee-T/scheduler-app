@@ -35,7 +35,7 @@ As a user, I want a place I can plan out my busy workday with hourly time blocks
  ## Authors 
 
  Starter code provided by UPenn Web Development Bootcamp.
- Alterations and function by Tucker McKee
+ Alterations and JavaScript by Tucker McKee
 
  ## License
 
