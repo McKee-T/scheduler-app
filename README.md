@@ -1,99 +1,42 @@
-# 05 Third-Party APIs: Work Day Scheduler
-
-## Your Task
-
-Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+## Workday Schedule
 
 ## User Story
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+As a user, I want a place I can plan out my busy workday with hourly time blocks and color coding to be able to reference my tasks at a glance.
 
-## Acceptance Criteria
+## Visuals
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours of 9am&ndash;5pm
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+![scheduler1](https://github.com/McKee-T/scheduler-app/assets/144379790/00376fd4-65a0-409f-92d6-2bc1f00e7776)
+![scheduler2](https://github.com/McKee-T/scheduler-app/assets/144379790/3a46d833-a046-4906-ab54-059510699b40)
 
-The following animation demonstrates the application functionality:
+## Languages Used
+ 
+ - HTML
+ - CSS
+ -JavaScript
+ - Day.js to handle time
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+ ## Installation
 
-## Grading Requirements
+ N/A
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+ ## Usage
 
-This Challenge is graded based on the following criteria:
+ This website serves as a detailed planner for a 9-5 workday.
 
-### Technical Acceptance Criteria: 40%
+ ## Support
 
-* Satisfies all of the above acceptance criteria plus the following:
+ N/A
 
-  * Uses a date utility library to work with date and time
+ ## Roadmap
 
-### Deployment: 32%
+ A clear button needs to be added to quickly clear the days events.  
 
-* Application deployed at live URL
+ ## Authors 
 
-* Application loads with no errors
+ Starter code provided by UPenn Web Development Bootcamp.
+ Alterations and function by Tucker McKee
 
-* Application GitHub URL submitted
+ ## License
 
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+ Open source using MIT licensing.
